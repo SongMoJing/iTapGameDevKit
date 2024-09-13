@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3017a4fc-cea0-4d54-9e4a-c1affbd3a6bf" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Launch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Window/Window.java" afterDir="false" />
+    <list default="true" id="3017a4fc-cea0-4d54-9e4a-c1affbd3a6bf" name="更改" comment="正常更改">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/MainHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/Window/Tscn/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/Window/Tscn/Script.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/Window/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/GameConfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/结构.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Launch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Window/Window.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +33,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2lseINd5b1bJgPUl8XVTIZuMWdH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +57,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/李嘉兴/程序设计/java/E.Tick",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,9 +67,58 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Launch.executor": "Run",
+    "应用程序.Main.executor": "Run"
   }
 }]]></component>
+  <component name="RunManager" selected="应用程序.Launch">
+    <configuration name="Launch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.funcablaze.iTap.Launch" />
+      <module name="iTapGDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.funcablaze.iTap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.test.Main" />
+      <module name="iTapGDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="iTap Game Development Kit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="iTap Game Development Kit" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Launch" />
+        <item itemvalue="应用程序.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,11 +136,29 @@
       <updated>1725973132715</updated>
       <workItem from="1725973133754" duration="200000" />
       <workItem from="1726051470862" duration="527000" />
-      <workItem from="1726052219324" duration="168000" />
+      <workItem from="1726052219324" duration="518000" />
+      <workItem from="1726052775373" duration="1171000" />
+      <workItem from="1726054039221" duration="162000" />
+      <workItem from="1726054795093" duration="4988000" />
+      <workItem from="1726226108948" duration="479000" />
+      <workItem from="1726227035898" duration="2877000" />
     </task>
+    <task id="LOCAL-00001" summary="正常更改">
+      <option name="closed" value="true" />
+      <created>1726052456672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726052456672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="正常更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="正常更改" />
   </component>
 </project>
