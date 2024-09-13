@@ -16,7 +16,7 @@ public abstract class Launch {
     public abstract void launch();
 
     private void init() {
-        mainHandler = new MainHandler();
+        mainHandler = new MainHandler(MainHandler.SceneMode.REPLACE);
         launch();
     }
 
