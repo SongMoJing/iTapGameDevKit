@@ -9,13 +9,35 @@ public class MainHandler extends Thread{
     private final SceneMode sceneMode;
 
     public enum SceneMode {
+        /**
+         *  栈模式
+         */
         STACK,
+        /**
+         * 取代模式
+         */
         REPLACE
     }
 
     public MainHandler(SceneMode mode) {
         this.sceneMode = mode;
+    }
 
+    public boolean runGame() {
+        if (!scenes.isEmpty()) {
+            start();
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public void start() {
+        super.start();
+        while (!scenes.isEmpty()) {
+
+        }
     }
 
     /**

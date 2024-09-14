@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3017a4fc-cea0-4d54-9e4a-c1affbd3a6bf" name="更改" comment="正常更改">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/MainHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/MainHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Launch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/GameConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/GameConfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +56,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
+    "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.19933555",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true",
     "应用程序.Launch.executor": "Run",
@@ -111,13 +112,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-corretto-21.0.2-3183f394aec4-09c6784e" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -135,6 +129,7 @@
       <workItem from="1726226108948" duration="479000" />
       <workItem from="1726227035898" duration="2877000" />
       <workItem from="1726229926958" duration="2125000" />
+      <workItem from="1726305019192" duration="5670000" />
     </task>
     <task id="LOCAL-00001" summary="正常更改">
       <option name="closed" value="true" />

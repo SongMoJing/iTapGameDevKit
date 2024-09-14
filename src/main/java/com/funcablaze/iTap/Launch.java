@@ -24,7 +24,7 @@ public abstract class Launch {
         ClassLoader launchClass = Launch.class.getClassLoader();
         Class<Launch> main;
         JSONObject json = new JSONObject(new String(Objects.requireNonNull(launchClass.getResourceAsStream("GameConfig.json")).readAllBytes()));
-        String mainClassName = json.getString("mainClass");
+        String mainClassName = json.getString("LaunchClass");
         try {
             main = (Class<Launch>) launchClass.loadClass(mainClassName);
             main.newInstance().init();

@@ -1,3 +1,11 @@
 {
-  "mainClass": "org.test.Main"
+  "Game": {
+    "name": "iTapTest",
+    "sVersion": "0.1.0",
+    "iVersion": 1,
+    "author": [
+      "松蓦箐 <Song_Mojing@outlook.com>"
+    ]
+  },
+  "LaunchClass": "org.test.Main"
 }
