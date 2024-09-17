@@ -1,6 +1,7 @@
 package com.funcablaze.iTap;
 
 import com.funcablaze.iTap.Game.MainHandler;
+import com.funcablaze.iTap.Game.Window.Window;
 import org.json.*;
 
 import java.io.IOException;
@@ -13,13 +14,15 @@ public abstract class Launch {
 
     public static JSONObject GameConfig;
 
-    MainHandler mainHandler;
+    public static MainHandler mainHandler;
 
-    public abstract void launch();
+    public abstract void launch(Window window);
 
     private void init() {
-        mainHandler = new MainHandler(MainHandler.SceneMode.REPLACE);
-        launch();
+//        mainHandler = new MainHandler(MainHandler.SceneMode.REPLACE);
+        JSONObject info = Launch.GameConfig.getJSONObject("GameInfo").getJSONObject("mainWindow");
+        Window window = new Window(info.getString("title"), info.getInt("width"), info.getInt("height"));
+        launch(window);
     }
 
     public static void main(String[] args) throws IOException {

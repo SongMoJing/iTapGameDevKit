@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3017a4fc-cea0-4d54-9e4a-c1affbd3a6bf" name="更改" comment="正常更改" />
+    <list default="true" id="3017a4fc-cea0-4d54-9e4a-c1affbd3a6bf" name="更改" comment="正常更改">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/WindowHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/MainHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/MainHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/Window/Tscn/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/Window/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/Window/Tscn/Script.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/Window/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Game/Window/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Launch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/GameConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/GameConfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/结构.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,6 +118,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-corretto-21.0.2-3183f394aec4-09c6784e" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -127,6 +145,8 @@
       <workItem from="1726305019192" duration="6529000" />
       <workItem from="1726359478022" duration="3939000" />
       <workItem from="1726536830066" duration="374000" />
+      <workItem from="1726570091171" duration="356000" />
+      <workItem from="1726570463847" duration="4607000" />
     </task>
     <task id="LOCAL-00001" summary="正常更改">
       <option name="closed" value="true" />

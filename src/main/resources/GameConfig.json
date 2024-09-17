@@ -1,8 +1,16 @@
 {
 	"LaunchClass": "org.test.Main",
-	"GameName": "测试游戏",
-	"GameVersion": "1.0.0",
-	"GameAuthor": [
-		"松蓦箐 <Song_Mojing@outlook.com>"
-	]
+	"GameInfo": {
+		"GameName": "测试游戏",
+		"GameVersion": "1.0.0",
+		"GameAuthor": [
+			"松蓦箐 <Song_Mojing@outlook.com>"
+		],
+		"mainWindow": {
+			"width": 800,
+			"height": 600,
+			"title": "${/GameInfo/GameName}",
+			"icon": "icon.png"
+		}
+	}
 }
