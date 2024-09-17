@@ -1,11 +1,8 @@
 {
-  "Game": {
-    "name": "iTapTest",
-    "sVersion": "0.1.0",
-    "iVersion": 1,
-    "author": [
-      "松蓦箐 <Song_Mojing@outlook.com>"
-    ]
-  },
-  "LaunchClass": "org.test.Main"
+	"LaunchClass": "org.test.Main",
+	"GameName": "测试游戏",
+	"GameVersion": "1.0.0",
+	"GameAuthor": [
+		"松蓦箐 <Song_Mojing@outlook.com>"
+	]
 }

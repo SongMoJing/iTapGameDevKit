@@ -11,6 +11,8 @@ import java.util.Objects;
  */
 public abstract class Launch {
 
+    public static JSONObject GameConfig;
+
     MainHandler mainHandler;
 
     public abstract void launch();
@@ -22,11 +24,10 @@ public abstract class Launch {
 
     public static void main(String[] args) throws IOException {
         ClassLoader launchClass = Launch.class.getClassLoader();
-        Class<Launch> main;
-        JSONObject json = new JSONObject(new String(Objects.requireNonNull(launchClass.getResourceAsStream("GameConfig.json")).readAllBytes()));
-        String mainClassName = json.getString("LaunchClass");
+        GameConfig = new JSONObject(new String(Objects.requireNonNull(launchClass.getResourceAsStream("GameConfig.json")).readAllBytes()));
         try {
-            main = (Class<Launch>) launchClass.loadClass(mainClassName);
+            String mainClassName = GameConfig.getString("LaunchClass");
+            Class<Launch> main = (Class<Launch>) launchClass.loadClass(mainClassName);
             main.newInstance().init();
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
             throw new RuntimeException("找不到或无法加载主类。\n" + e);
