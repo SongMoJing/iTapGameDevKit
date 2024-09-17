@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3017a4fc-cea0-4d54-9e4a-c1affbd3a6bf" name="更改" comment="正常更改">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funcablaze/iTap/Launch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/GameConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/GameConfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="3017a4fc-cea0-4d54-9e4a-c1affbd3a6bf" name="更改" comment="正常更改" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,6 +126,7 @@
       <workItem from="1726229926958" duration="2125000" />
       <workItem from="1726305019192" duration="6529000" />
       <workItem from="1726359478022" duration="3939000" />
+      <workItem from="1726536830066" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="正常更改">
       <option name="closed" value="true" />
@@ -155,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726321248752</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="正常更改">
+      <option name="closed" value="true" />
+      <created>1726537110721</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726537110721</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
