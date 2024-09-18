@@ -10,7 +10,7 @@
 			"width": 800,
 			"height": 600,
 			"title": "${/GameInfo/GameName}",
-			"icon": "icon.png"
+			"icon": "res/images/icon.png"
 		}
 	}
 }
